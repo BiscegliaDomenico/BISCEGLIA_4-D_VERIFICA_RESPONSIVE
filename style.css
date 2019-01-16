@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color: pink;
+  color: white;
+  padding: 15px;
+}
+.footer{
+	background-color: pink;
+	color: white;
+	padding: 15px;
+}
+
+.testo {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 400px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: pink;
+  color: white;
+}
+
+.menu li:hover {
+  background-color:violet;
+}
+.divdestra{
+	float : left;
+	background-color : pink;
+
+}
